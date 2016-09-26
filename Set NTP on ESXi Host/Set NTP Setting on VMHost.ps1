@@ -1,5 +1,6 @@
 ﻿
-$esx = "host.domain.com"
+#----Add host name
+$esx = "host1.domain.com"
 
 #Configure NTP server
 Add-VmHostNtpServer -NtpServer "dmz.domain.com" -VMHost $esx 

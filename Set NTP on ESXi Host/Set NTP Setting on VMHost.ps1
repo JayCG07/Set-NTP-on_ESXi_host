@@ -1,4 +1,7 @@
 ﻿
+#----Error Preference
+$ErrorActionPreference = "Continue"
+
 #----Add host name
 $esxihost = "host1.domain.com"
 
